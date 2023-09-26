@@ -1,0 +1,7 @@
+.myNoise{
+    background-image: url(assets/noise-light.png), linear-gradient(rgb(241, 241, 241),rgb(214, 214, 214));
+}
+.myNoise2{
+    background-image: url(assets/noise-light.png), linear-gradient(rgb(241, 241, 241),rgb(232, 232, 232));
+}
+
