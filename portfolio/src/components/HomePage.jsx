@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Box,
   Grid,
@@ -9,9 +10,13 @@ import {
   Link,
   Container,
 } from "@chakra-ui/react";
-import React from "react";
+import { useNavigate } from "react-router-dom";
+
 
 const HomePage = () => {
+
+  let navigate = useNavigate();
+
   return (
     <Container maxW="container.xl">
       <SimpleGrid
@@ -26,10 +31,12 @@ const HomePage = () => {
             width="100%"
             height="350px"
             borderRadius={30}
-            objectFit="cover"
             bgImage="/src/assets/homepage/computer.jpg"
             bgPosition="center"
             bgSize="cover"
+            cursor='pointer'
+            onClick={() => navigate("/ProjectsPage")}
+            
           >
             <Text ms={12} mb={10} color="white" fontWeight="bold" fontSize={25}>
               Web
@@ -44,10 +51,11 @@ const HomePage = () => {
             width="100%"
             height="350px"
             borderRadius={30}
-            objectFit="cover"
             bgImage="/src/assets/homepage/film.jpg"
             bgPosition="center"
             bgSize="cover"
+            cursor='pointer'
+            onClick={() => navigate("/ProjectsPage")}
           >
             <Text ms={12} mb={10} color="white" fontWeight="bold" fontSize={25}>
               Filmmaking
@@ -62,10 +70,11 @@ const HomePage = () => {
             width="100%"
             height="350px"
             borderRadius={30}
-            objectFit="cover"
             bgImage="/src/assets/homepage/photography.jpg"
             bgPosition="center"
             bgSize="cover"
+            cursor='pointer'
+            onClick={() => navigate("/ProjectsPage")}
           >
             <Text ms={12} mb={10} color="white" fontWeight="bold" fontSize={25}>
               Filmmaking

@@ -1,26 +1,42 @@
 import React from 'react'
-import { Box, Container, Text } from '@chakra-ui/react'
+import { Box, Container, Text, FormControl,
+  FormLabel,
+  FormErrorMessage,
+  FormHelperText,
+  Input,
+  SimpleGrid,
+  GridItem,
+  Button, } from '@chakra-ui/react'
 
 const Contact = () => {
   return (
     <>
-    <Container maxW="container.xl">
-        <Box
-          mt={{ lg: "-125px", md: "-125px", sm: "-40px" }}
-          height={{ lg: "350px", md: "350px", sm: "250" }}
-          borderRadius={30}
-          display="flex"
-          alignItems="center"
-          justifyContent="center"
-          className="myNoise"
-          
-        >
-          <Text fontSize={30} fontWeight="bold" mt="50px">
-            Contact
-          </Text>
+    <Container maxW="container.lg" className='myNoise' borderRadius={30} p={10}>
+
+      <SimpleGrid columns={{sm:1, md:2, lg:2}}>
+        <GridItem display='flex' alignItems='center' justifyContent='center'>
+          <Text pe={{sm: 0, md:10}} textAlign='center' fontSize={40} fontWeight={700}>Let's Work Together!</Text>
+        </GridItem>
+        <GridItem>
+        <FormControl>
+          <FormLabel mt={4} fontWeight={600}>Name</FormLabel>
+            <Input mb={4} bgColor="#FAFAFA" type='text' placeholder='Name goes here.'/>
+          <FormLabel fontWeight={600}>Email</FormLabel>
+            <Input mb={4} bgColor="#FAFAFA" type='email' placeholder='Email goes here.'/>
+          <FormLabel fontWeight={600}>Message</FormLabel>
+            <Input mb={4} bgColor="#FAFAFA" type='text' placeholder='Message goes here.'/>
+        </FormControl>
+        <Box display='flex' justifyContent='center' mb={4}>
+
+        <Button bgColor="#FAFAFA">Submit</Button>
         </Box>
+        </GridItem>
+      </SimpleGrid>
+       
         </Container>
-    
+
+
+
     </>
   )
 }

@@ -36,7 +36,7 @@ const MyNavBar = () => {
   <Image mx={5} src={logo} boxSize='40px'/>
   
   <Box mx={7}>
-    <FontAwesomeIcon icon={faBars} type="button" ref={btnRef} onClick={onOpen}  />
+    <FontAwesomeIcon icon={faBars} type="button" ref={btnRef} onClick={onOpen} />
   </Box>
      
       <Drawer
@@ -57,11 +57,11 @@ const MyNavBar = () => {
            
           <SimpleGrid columns={1}>
 
-          <Box  as={Link} to='/'>Home</Box>
-          <Box  as={Link} to='/AboutPage'>About</Box>
-          <Box  as={Link} to='/ProjectsPage'>Projects</Box>
-          <Box  as={Link} to='/Contact'>Contact</Box>
-          </SimpleGrid>
+            <Box  as={Link} to='/'>Home</Box>
+            <Box  as={Link} to='/AboutPage'>About</Box>
+            <Box  as={Link} to='/ProjectsPage'>Projects</Box>
+            <Box  as={Link} to='/Contact'>Contact</Box>
+            </SimpleGrid>
     
             
           </DrawerBody>

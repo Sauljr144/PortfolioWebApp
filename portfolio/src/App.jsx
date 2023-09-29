@@ -9,7 +9,10 @@ import ProjectsPage from "./components/ProjectsPage";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import MyNavBar from "./components/MyNavBar";
-import "../src/mystyles.css"
+import PWeb from './components/PWeb'
+import PFilm from './components/PFilm'
+import PPhoto from './components/PPhoto'
+
 
 function App() {
   return (
