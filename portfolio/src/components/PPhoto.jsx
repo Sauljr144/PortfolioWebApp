@@ -52,7 +52,7 @@ const PPhoto = () => {
                      
                     ))}
               </Box>
-              <Button onClick={onOpen}>Open Modal</Button>
+              
 
          
         </Container>
