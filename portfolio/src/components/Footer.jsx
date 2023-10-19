@@ -19,7 +19,7 @@ const Footer = () => {
       <Box mx={2} as={Link} to='/ProjectsPage' fontSize={11} fontWeight='bold'>Projects</Box>
       <Box mx={2} as={Link} to='/Contact' fontSize={11} fontWeight='bold'>Contact</Box>
     </HStack>
-    <Text  fontSize={11} color="#595858">Copyright © 2023 Saul Suazo. All rights reserved.</Text>
+    <Text mb={10} fontSize={11} color="#595858">Copyright © 2023 Saul Suazo. All rights reserved.</Text>
     </Container>
     </>
   )
