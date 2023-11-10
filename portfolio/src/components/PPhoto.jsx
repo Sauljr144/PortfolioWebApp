@@ -57,10 +57,10 @@ const PPhoto = () => {
                 mx="auto"
                 sx={{ columnCount: [1, 2, 3], columnGap: "10px" }}>
 
-                    {myImages.map((src, i) => (
+                    {myImages.map((src, index) => (
                       <Image
                       onClick={onOpen}
-                        key={i}
+                        key={index}
                         w="100%"
                         mb={3}
                         d="inline-block"
