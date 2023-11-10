@@ -50,7 +50,7 @@ const PFilm = () => {
 
         <Center>
           <Text fontSize={25} fontWeight={600} mt={20} mb={6}>
-            My Top Favorite Projects I’ve Filmed
+            My Top Favorite Projects I’ve Created
           </Text>
         </Center>
 

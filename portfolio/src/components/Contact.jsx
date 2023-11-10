@@ -6,7 +6,7 @@ import { Box, Container, Text, FormControl,
   Input,
   SimpleGrid,
   GridItem,
-  Button, } from '@chakra-ui/react'
+  Button, Textarea } from '@chakra-ui/react'
 
 const Contact = () => {
   return (
@@ -24,7 +24,8 @@ const Contact = () => {
           <FormLabel fontWeight={600}>Email</FormLabel>
             <Input mb={4} bgColor="#FAFAFA" type='email' placeholder='Email goes here.'/>
           <FormLabel fontWeight={600}>Message</FormLabel>
-            <Input mb={4} bgColor="#FAFAFA" type='text' placeholder='Message goes here.'/>
+            {/* <Input mb={4} bgColor="#FAFAFA" type='text' placeholder='Message goes here.' height={200}/> */}
+            <Textarea bgColor="#FAFAFA" mb={4} placeholder='Message goes here.' />
         </FormControl>
         <Box display='flex' justifyContent='center' mb={4}>
 

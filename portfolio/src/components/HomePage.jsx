@@ -77,7 +77,7 @@ const HomePage = () => {
             onClick={() => navigate("/ProjectsPage")}
           >
             <Text ms={12} mb={10} color="white" fontWeight="bold" fontSize={25}>
-              Filmmaking
+              Photography
             </Text>
           </Box>
         </GridItem>
