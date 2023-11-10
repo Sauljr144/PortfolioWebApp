@@ -11,6 +11,7 @@ import {
   Container,
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
+import computer from '../assets/homepage/computer.jpg'
 
 
 const HomePage = () => {
@@ -31,7 +32,7 @@ const HomePage = () => {
             width="100%"
             height="350px"
             borderRadius={30}
-            bgImage="src/assets/homepage/computer.jpg"
+            bgImage={computer}
             bgPosition="center"
             bgSize="cover"
             cursor='pointer'
