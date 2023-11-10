@@ -21,6 +21,10 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import typescirpt from "../assets/typescript.png"
 import csharp from "../assets/c_sharp.png"
+import weather from "../assets/WebProjects/WeatherApp.png"
+import top10 from "../assets/WebProjects/Top10.png"
+import flashCards from '../assets/WebProjects/FlashCards.png'
+import hangman from '../assets/WebProjects/hangman.png'
 
 const PWeb = () => {
   return (
@@ -60,7 +64,7 @@ const PWeb = () => {
               display="flex"
               bgSize="cover"
               bgPosition="center"
-              bgImage="/src/assets/WebProjects/WeatherApp.png"
+              bgImage={weather}
               borderRadius={20}
             ></Box>
             <Text mt={4} fontWeight={700} fontSize={20}>
@@ -73,7 +77,7 @@ const PWeb = () => {
               display="flex"
               bgSize="cover"
               bgPosition="top"
-              bgImage="/src/assets/WebProjects/Top10.png"
+              bgImage={top10}
               borderRadius={20}
             ></Box>
             <Text mt={4} fontWeight={700} fontSize={20}>
@@ -86,7 +90,7 @@ const PWeb = () => {
               display="flex"
               bgSize="cover"
               bgPosition="center"
-              bgImage="/src/assets/WebProjects/FlashCards.png"
+              bgImage={flashCards}
               borderRadius={20}
             ></Box>
             <Text mt={4} fontWeight={700} fontSize={20}>
@@ -99,7 +103,7 @@ const PWeb = () => {
               display="flex"
               bgSize="cover"
               bgPosition='top'
-              bgImage="/src/assets/WebProjects/hangman.png"
+              bgImage={hangman}
               borderRadius={20}
             ></Box>
             <Text mt={4} fontWeight={700} fontSize={20}>
