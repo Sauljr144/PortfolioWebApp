@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Button, GridItem, SimpleGrid, Text, Grid, HStack, Box, Image, Modal, ModalOverlay, ModalContent, ModalCloseButton, ModalBody, useDisclosure} from '@chakra-ui/react'
 import photo1 from "../assets/Photography/Bibi&James_0025.jpg"
-import photo2 from "../assets/Photography/David&Fernanda-1.jpg"
+// import photo2 from "../assets/Photography/David&Fernanda-1.jpg"
 import photo3 from "../assets/Photography/Bibi&James_0038.jpg"
 import photo4 from "../assets/Photography/David&Fernanda-2.jpg"
 import photo5 from "../assets/Photography/Bibi&James_0032.jpg"
@@ -26,7 +26,7 @@ const PPhoto = () => {
 
   const myImages = [
    photo1,
-   photo2,
+  //  photo2,
    photo3,
    photo4,
    photo5,
