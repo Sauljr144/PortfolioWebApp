@@ -1,49 +1,49 @@
 import React from 'react'
 import { Container, Button, GridItem, SimpleGrid, Text, Grid, HStack, Box, Image, Modal, ModalOverlay, ModalContent, ModalCloseButton, ModalBody, useDisclosure} from '@chakra-ui/react'
-// import photo1 from "../assets/Photography/Bibi&James_0025.jpg"
-// import photo2 from "../assets/Photography/David&Fernanda-1.jpg"
-// import photo3 from "../assets/Photography/Bibi&James_0038.jpg"
-// import photo4 from "../assets/Photography/David&Fernanda-2.jpg"
-// import photo5 from "../assets/Photography/Bibi&James_0032.jpg"
-// import photo6 from "../assets/Photography/Bibi&James_0037.jpg"
-// import photo7 from "../assets/Photography/Bibi&James_0047.jpg"
-// import photo8 from "../assets/Photography/David&Fernanda-3.jpg"
-// import photo9 from "../assets/Photography/Denise&Adrian_0007.jpg"
-// import photo10 from "../assets/Photography/Bibi&James_0057.jpg"
-// import photo11 from "../assets/Photography/David&Fernanda-4.jpg"
-// import photo12 from "../assets/Photography/Denise&Adrian_0011.jpg"
-// import photo13 from "../assets/Photography/David&Fernanda-9.jpg"
-// import photo14 from "../assets/Photography/Denise&Adrian_0028.jpg"
-// import photo15 from "../assets/Photography/David&Fernanda-6.jpg"
-// import photo16 from "../assets/Photography/David&Fernanda-10.jpg"
-// import photo17 from "../assets/Photography/Denise&Adrian_0026.jpg"
-// import photo18 from "../assets/Photography/David&Fernanda-8.jpg"
-import photos from "../photos.json"
+import photo1 from "../assets/Photography/Bibi&James_0025.jpg"
+import photo2 from "../assets/Photography/David&Fernanda-1.jpg"
+import photo3 from "../assets/Photography/Bibi&James_0038.jpg"
+import photo4 from "../assets/Photography/David&Fernanda-2.jpg"
+import photo5 from "../assets/Photography/Bibi&James_0032.jpg"
+import photo6 from "../assets/Photography/Bibi&James_0037.jpg"
+import photo7 from "../assets/Photography/Bibi&James_0047.jpg"
+import photo8 from "../assets/Photography/David&Fernanda-3.jpg"
+import photo9 from "../assets/Photography/Denise&Adrian_0007.jpg"
+import photo10 from "../assets/Photography/Bibi&James_0057.jpg"
+import photo11 from "../assets/Photography/David&Fernanda-4.jpg"
+import photo12 from "../assets/Photography/Denise&Adrian_0011.jpg"
+import photo13 from "../assets/Photography/David&Fernanda-9.jpg"
+import photo14 from "../assets/Photography/Denise&Adrian_0028.jpg"
+import photo15 from "../assets/Photography/David&Fernanda-6.jpg"
+import photo16 from "../assets/Photography/David&Fernanda-10.jpg"
+import photo17 from "../assets/Photography/Denise&Adrian_0026.jpg"
+import photo18 from "../assets/Photography/David&Fernanda-8.jpg"
+// import photos from "../photos.json"
 
 const PPhoto = () => {
   useDisclosure
   const { isOpen, onOpen, onClose } = useDisclosure()
 
-  // const myImages = [
-  //  photo1,
-  //  photo2,
-  //  photo3,
-  //  photo4,
-  //  photo5,
-  //  photo6,
-  //  photo7,
-  //  photo8,
-  //  photo9,
-  //  photo10,
-  //  photo11,
-  //  photo12,
-  //  photo13,
-  //  photo14,
-  //  photo15,
-  //  photo16,
-  //  photo17,
-  //  photo18,
-  // ]
+  const myImages = [
+   photo1,
+   photo2,
+   photo3,
+   photo4,
+   photo5,
+   photo6,
+   photo7,
+   photo8,
+   photo9,
+   photo10,
+   photo11,
+   photo12,
+   photo13,
+   photo14,
+   photo15,
+   photo16,
+   photo17,
+   photo18,
+  ]
 
   return (
     <>
@@ -57,10 +57,10 @@ const PPhoto = () => {
                 mx="auto"
                 sx={{ columnCount: [1, 2, 3], columnGap: "10px" }}>
 
-                    {photos.map((src) => (
+                    {myImages.map((src, i) => (
                       <Image
                       onClick={onOpen}
-                        key={src}
+                        key={i}
                         w="100%"
                         mb={3}
                         d="inline-block"
