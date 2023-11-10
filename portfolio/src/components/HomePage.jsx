@@ -31,7 +31,7 @@ const HomePage = () => {
             width="100%"
             height="350px"
             borderRadius={30}
-            bgImage="/src/assets/homepage/computer.jpg"
+            bgImage="src/assets/homepage/computer.jpg"
             bgPosition="center"
             bgSize="cover"
             cursor='pointer'
