@@ -1,20 +1,21 @@
 import React from 'react'
 import { Container, Button, GridItem, SimpleGrid, Text, Grid, HStack, Box, Image, Modal, ModalOverlay, ModalContent, ModalCloseButton, ModalBody, useDisclosure} from '@chakra-ui/react'
+import photo1 from "../assets/Photography/Bibi&James_0025.jpg"
 
 const PPhoto = () => {
   useDisclosure
   const { isOpen, onOpen, onClose } = useDisclosure()
 
   const myImages = [
-    "src/assets/Photography/Bibi&James_0025.jpg",
-    "src/assets/Photography/David&Fernanda-1.jpg",
-    "src/assets/Photography/Bibi&James_0038.jpg",
-    "src/assets/Photography/David&Fernanda-2.jpg",
-    "src/assets/Photography/Bibi&James_0032.jpg",
-    "src/assets/Photography/Bibi&James_0037.jpg",
-    "src/assets/Photography/Bibi&James_0047.jpg",
-    "src/assets/Photography/David&Fernanda-3.jpg",
-    "src/assets/Photography/Denise&Adrian_0007.jpg",
+    "assets/Photography/Bibi&James_0025.jpg",
+    "assets/Photography/David&Fernanda-1.jpg",
+    "assets/Photography/Bibi&James_0038.jpg",
+    "assets/Photography/David&Fernanda-2.jpg",
+    "assets/Photography/Bibi&James_0032.jpg",
+    "assets/Photography/Bibi&James_0037.jpg",
+    "assets/Photography/Bibi&James_0047.jpg",
+    "assets/Photography/David&Fernanda-3.jpg",
+    "assets/Photography/Denise&Adrian_0007.jpg",
     "src/assets/Photography/Bibi&James_0057.jpg",
     "src/assets/Photography/David&Fernanda-4.jpg",
     "src/assets/Photography/Denise&Adrian_0011.jpg",
@@ -45,7 +46,7 @@ const PPhoto = () => {
                         w="100%"
                         mb={3}
                         d="inline-block"
-                        src={src}
+                        src={require(src)}
                         alt="Alt"
                         cursor='pointer'
                       />

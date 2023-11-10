@@ -13,6 +13,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import computer from '../assets/homepage/computer.jpg'
 import film from '../assets/homepage/film.jpg'
+import photo from '../assets/homepage/photography.jpg'
 
 
 const HomePage = () => {
@@ -72,7 +73,7 @@ const HomePage = () => {
             width="100%"
             height="350px"
             borderRadius={30}
-            bgImage="/src/assets/homepage/photography.jpg"
+            bgImage={photo}
             bgPosition="center"
             bgSize="cover"
             cursor='pointer'
