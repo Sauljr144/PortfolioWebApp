@@ -1,20 +1,20 @@
 [
-  "../assets/Photography/Bibi&James_0025.jpg",
-  
-  "../assets/Photography/Bibi&James_0038.jpg",
-  "../assets/Photography/David&Fernanda-2.jpg",
-  "../assets/Photography/Bibi&James_0032.jpg",
-  "../assets/Photography/Bibi&James_0037.jpg",
-  "../assets/Photography/Bibi&James_0047.jpg",
-  "../assets/Photography/David&Fernanda-3.jpg",
-  "../assets/Photography/Denise&Adrian_0007.jpg",
-  "../assets/Photography/Bibi&James_0057.jpg",
-  "../assets/Photography/David&Fernanda-4.jpg",
-  "../assets/Photography/Denise&Adrian_0011.jpg",
-  "../assets/Photography/David&Fernanda-9.jpg",
-  "../assets/Photography/Denise&Adrian_0028.jpg",
-  "../assets/Photography/David&Fernanda-6.jpg",
-  "../assets/Photography/David&Fernanda-10.jpg",
-  "../assets/Photography/Denise&Adrian_0026.jpg",
-  "../assets/Photography/David&Fernanda-8.jpg"
+  "/src/assets/Photography/Bibi&James_0025.jpg",
+  "/src/assets/Photography/David&Fernanda-1.jpg".
+  "/src/assets/Photography/Bibi&James_0038.jpg",
+  "/src/assets/Photography/David&Fernanda-2.jpg",
+  "/src/assets/Photography/Bibi&James_0032.jpg",
+  "/src/assets/Photography/Bibi&James_0037.jpg",
+  "/src/assets/Photography/Bibi&James_0047.jpg",
+  "/src/assets/Photography/David&Fernanda-3.jpg",
+  "/src/assets/Photography/Denise&Adrian_0007.jpg",
+  "/src/assets/Photography/Bibi&James_0057.jpg",
+  "/src/assets/Photography/David&Fernanda-4.jpg",
+  "/src/assets/Photography/Denise&Adrian_0011.jpg",
+  "/src/assets/Photography/David&Fernanda-9.jpg",
+  "/src/assets/Photography/Denise&Adrian_0028.jpg",
+  "/src/assets/Photography/David&Fernanda-6.jpg",
+  "/src/assets/Photography/David&Fernanda-10.jpg",
+  "/src/assets/Photography/Denise&Adrian_0026.jpg",
+  "/src/assets/Photography/David&Fernanda-8.jpg"
 ]
