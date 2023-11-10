@@ -19,6 +19,8 @@ import {
   faHtml5,
   faCss3,
 } from "@fortawesome/free-brands-svg-icons";
+import typescirpt from "../assets/typescript.png"
+import csharp from "../assets/c_sharp.png"
 
 const PWeb = () => {
   return (
@@ -38,9 +40,9 @@ const PWeb = () => {
         <HStack>
           <FontAwesomeIcon icon={faGithub} size="xl" />
           <FontAwesomeIcon icon={faReact} size="xl" />
-          <Image src="/src/assets/typescript.png" boxSize="22px" />
+          <Image src={typescirpt} boxSize="22px" />
           <FontAwesomeIcon icon={faJs} size="xl" />
-          <Image src="/src/assets/c_sharp.png" boxSize="23px" />
+          <Image src={csharp} boxSize="23px" />
           <FontAwesomeIcon icon={faUnity} size="xl" />
           <FontAwesomeIcon icon={faBootstrap} size="xl" />
           <FontAwesomeIcon icon={faHtml5} size="xl" />
