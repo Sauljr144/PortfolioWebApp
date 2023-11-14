@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Text, Box, Image, useDisclosure} from '@chakra-ui/react'
-import ThePhotos from '../ThePhotos.js'
+import myPhotos from '../ThePhotos'
 
 
 
@@ -41,7 +41,7 @@ const PPhoto = () => {
                 mx="auto"
                 sx={{ columnCount: [1, 2, 3], columnGap: "10px" }}>
 
-                    {ThePhotos.map((src, index) => (
+                    {myPhotos.map((src, index) => (
                       <Image
                       onClick={onOpen}
                         key={index}
