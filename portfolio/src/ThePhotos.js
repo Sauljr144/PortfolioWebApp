@@ -1,6 +1,6 @@
-[
+const myPhotos = [
   "/src/assets/Photography/Bibi&James_0025.jpg",
-  "/src/assets/Photography/David&Fernanda-1.jpg".
+  "/src/assets/Photography/David&Fernanda-1.jpg",
   "/src/assets/Photography/Bibi&James_0038.jpg",
   "/src/assets/Photography/David&Fernanda-2.jpg",
   "/src/assets/Photography/Bibi&James_0032.jpg",
@@ -16,5 +16,5 @@
   "/src/assets/Photography/David&Fernanda-6.jpg",
   "/src/assets/Photography/David&Fernanda-10.jpg",
   "/src/assets/Photography/Denise&Adrian_0026.jpg",
-  "/src/assets/Photography/David&Fernanda-8.jpg"
-]
+  "/src/assets/Photography/David&Fernanda-8.jpg",
+];
