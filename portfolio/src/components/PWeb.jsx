@@ -33,7 +33,7 @@ const PWeb = () => {
         maxW="container.xl"
         className="myNoise"
         borderRadius={30}
-        p="90px"
+        p={{sm: 30, md:40, lg:90}}
       >
         <Text fontSize={35} fontWeight={700}>
           Web Projects
@@ -41,7 +41,7 @@ const PWeb = () => {
         <Text fontSize={18} fontWeight={700} mt={2} mb={2}>
           What I’ve used for development:
         </Text>
-        <HStack>
+        <HStack >
           <FontAwesomeIcon icon={faGithub} size="xl" />
           <FontAwesomeIcon icon={faReact} size="xl" />
           <Image src={typescirpt} boxSize="22px" />

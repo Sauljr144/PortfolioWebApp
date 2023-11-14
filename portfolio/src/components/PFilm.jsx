@@ -18,7 +18,7 @@ const PFilm = () => {
         maxW="container.xl"
         className="myNoise2"
         borderRadius={30}
-        p="90px"
+        p={{sm:30 ,md: 45, lg: 90}}
       >
         <Text fontSize={35} fontWeight={700} mb={10}>
           Film Projects
@@ -33,7 +33,7 @@ const PFilm = () => {
         <div style={{ padding: "42.5% 0 0 0", position: "relative" }}>
           <iframe
             src="https://player.vimeo.com/video/374463480?badge=0&amp;autopause=0&amp;quality_selector=1&amp;progress_bar=1&amp;player_id=0&amp;app_id=58479"
-            frameborder="0"
+            frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             style={{
               position: "absolute",
@@ -63,7 +63,7 @@ const PFilm = () => {
             <div style={{ padding: "52.73% 0 0 0", position: "relative" }}>
               <iframe
                 src="https://player.vimeo.com/video/793504114?badge=0&amp;autopause=0&amp;quality_selector=1&amp;progress_bar=1&amp;player_id=0&amp;app_id=58479"
-                frameborder="0"
+                frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture"
                 style={{
                   position: "absolute",
@@ -90,7 +90,7 @@ const PFilm = () => {
             <div style={{ padding: "52.73% 0 0 0", position: "relative" }}>
               <iframe
                 src="https://player.vimeo.com/video/727255581?badge=0&amp;autopause=0&amp;quality_selector=1&amp;progress_bar=1&amp;player_id=0&amp;app_id=58479"
-                frameborder="0"
+                frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture"
                 style={{
                   position: "absolute",
@@ -117,7 +117,7 @@ const PFilm = () => {
             <div style={{ padding: "52.73% 0 0 0", position: "relative" }}>
               <iframe
                 src="https://player.vimeo.com/video/641048208?badge=0&amp;autopause=0&amp;quality_selector=1&amp;progress_bar=1&amp;player_id=0&amp;app_id=58479"
-                frameborder="0"
+                frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture"
                 style={{
                   position: "absolute",
@@ -143,7 +143,7 @@ const PFilm = () => {
             <div style={{ padding: "52.73% 0 0 0", position: "relative" }}>
               <iframe
                 src="https://player.vimeo.com/video/345143243?badge=0&amp;autopause=0&amp;quality_selector=1&amp;progress_bar=1&amp;player_id=0&amp;app_id=58479"
-                frameborder="0"
+                frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture"
                 style={{
                   position: "absolute",

@@ -1,56 +1,36 @@
 import React from 'react'
 import { Container, Text, Box, Image, useDisclosure} from '@chakra-ui/react'
 
-import photo1 from "../assets/Photography/Bibi&James_0025.jpg"
 
-// import photo2 from "../assets/Photography/David_Fernanda_1.jpg"
-import photo3 from "../assets/Photography/Bibi&James_0038.jpg"
-// import photo4 from "../assets/Photography/David_Fernanda_2.jpg"
-import photo5 from "../assets/Photography/Bibi&James_0032.jpg"
-import photo6 from "../assets/Photography/Bibi&James_0037.jpg"
-import photo7 from "../assets/Photography/Bibi&James_0047.jpg"
-// import photo8 from "../assets/Photography/David_Fernanda_3.jpg"
-import photo9 from "../assets/Photography/Denise&Adrian_0007.jpg"
-import photo10 from "../assets/Photography/Bibi&James_0057.jpg"
-// import photo11 from "../assets/Photography/David_Fernanda_4.jpg"
-import photo12 from "../assets/Photography/Denise&Adrian_0011.jpg"
-// import photo13 from "../assets/Photography/David_Fernanda_5.jpg"
-import photo14 from "../assets/Photography/Denise&Adrian_0028.jpg"
-// import photo15 from "../assets/Photography/David_Fernanda_6.jpg"
-// import photo16 from "../assets/Photography/David_Fernanda_10.jpg"
-import photo17 from "../assets/Photography/Denise&Adrian_0026.jpg"
-// import photo18 from "../assets/Photography/David_Fernanda_8.jpg"
-// import photos from "../photos.json"
 
 const PPhoto = () => {
   useDisclosure
   const { isOpen, onOpen, onClose } = useDisclosure()
 
   const myImages = [
-   photo1,
    "https://drive.google.com/uc?export=view&id=1VLa109rYrmw7f4FXLa2B3u9FcU9NcWiN",
-  //  photo2,
-   photo3,
-  //  photo4,
-   photo5,
-   photo6,
-   photo7,
-  //  photo8,
-   photo9,
-   photo10,
-  //  photo11,
-   photo12,
-  //  photo13,
-   photo14,
-  //  photo15,
-  //  photo16,
-   photo17,
-  //  photo18,
+   "https://drive.google.com/uc?export=view&id=1dFd393FFLq0pSnDyWFeznDWLPX3hwpIn",
+   "https://drive.google.com/uc?export=view&id=1P0ndDjGxECF_kl5zLVkHAmWOUgmCyZBJ",
+   "https://drive.google.com/uc?export=view&id=1OI46sJTKs4_-GplSlkFWhCQnnZVCF0cs",
+   "https://drive.google.com/uc?export=view&id=1lmFYADQ58U8YUaWD5B2LOyoYfoCJJcOJ",
+   "https://drive.google.com/uc?export=view&id=1glnnL-5PKOpPJsZOZYH_-nQfUx6PQqrx",
+   "https://drive.google.com/uc?export=view&id=1sBfynkCTaVExuQyCAbq-Bh-t6DoTltCj",
+   "https://drive.google.com/uc?export=view&id=1An4ynjhdxE40YEEJnfnm0sYv4YU-X1vi",
+   "https://drive.google.com/uc?export=view&id=1eprY_y2eYIAH_KvN4oD55adr3sbAZdus",
+   "https://drive.google.com/uc?export=view&id=1o3jrNrz1fdfMEtRtKncS3-tTg0pHuM8Y",
+   "https://drive.google.com/uc?export=view&id=1pvYuyeNcSi_V42vtmY2oxiKg8PBKASu4",
+   "https://drive.google.com/uc?export=view&id=1xIxn9J1n2ZNnPKKUUI4V9kDDi18EAlRG",
+   "https://drive.google.com/uc?export=view&id=1NBiGXVDEujNAMc_kbmbupfitBhaao6sW",
+   "https://drive.google.com/uc?export=view&id=1yl0mS5ngPgEbjSneHzJp-YPzYMrklfDw",
+   "https://drive.google.com/uc?export=view&id=19ih4LZJhY395tCSjkL1Zak9-aGR_rGX4",
+   "https://drive.google.com/uc?export=view&id=1RKG0AvG4Nl6TAkU_D7cO2Ma6HFsRJcCY",
+   "https://drive.google.com/uc?export=view&id=1EKlPJ7N1eTk8F47R2sF4BPwWXiPD6dv_",
+   "https://drive.google.com/uc?export=view&id=14d7RPE86Z1YR7C-L-m8pOAGOIahJWhh1",
   ]
 
   return (
     <>
-      <Container maxW="container.xl" className='myNoise2' borderRadius={30} p='90px'>
+      <Container maxW="container.xl" className='myNoise2' borderRadius={30}  p={{sm: 30, md:40, lg:90}}>
           <Text fontSize={35} fontWeight={700} >Photography</Text>
             <Box
                 mt={10} 
