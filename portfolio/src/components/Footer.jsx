@@ -13,7 +13,10 @@ const Footer = () => {
     <Container maxW='container.xl'>
 
     <HStack justifyContent='start' mt={12} mb={5} >
+      <Box as={Link} to='/'>
+
       <Image me={2} src={logo} boxSize='35px'/>
+      </Box>
       <Box  mx={2} as={Link} to='/' fontSize={11} fontWeight='bold'>Home</Box>
       <Box  mx={2}as={Link} to='/AboutPage' fontSize={11} fontWeight='bold'>About</Box>
       <Box mx={2} as={Link} to='/ProjectsPage' fontSize={11} fontWeight='bold'>Projects</Box>

@@ -24,7 +24,9 @@ const MyNavBar = () => {
    <HStack justifyContent='center' my={12}>
       <Box  mx={10} as={Link} to='/'>Home</Box>
       <Box  mx={10} as={Link} to='/AboutPage'>About</Box>
+      <Box as={Link} to='/'>
       <Image src={logo} boxSize='60px'/>
+      </Box>
       <Box mx={10} as={Link} to='/ProjectsPage'>Projects</Box>
       <Box mx={10} as={Link} to='/Contact'>Contact</Box>
     </HStack>  
@@ -33,7 +35,10 @@ const MyNavBar = () => {
   <Hide above="md">
 
 <HStack justifyContent='space-between' my={3}>
-  <Image mx={5} src={logo} boxSize='40px'/>
+  <Box as={Link} to='/'>
+
+  <Image mx={5} src={logo}  boxSize='40px'/>
+  </Box>
   
   <Box mx={7}>
     <FontAwesomeIcon icon={faBars} type="button" ref={btnRef} onClick={onOpen} />

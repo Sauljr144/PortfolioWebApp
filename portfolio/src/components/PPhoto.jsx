@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Text, Box, Image, useDisclosure} from '@chakra-ui/react'
 
 import photo1 from "../assets/Photography/Bibi&James_0025.jpg"
+
 // import photo2 from "../assets/Photography/David_Fernanda_1.jpg"
 import photo3 from "../assets/Photography/Bibi&James_0038.jpg"
 // import photo4 from "../assets/Photography/David_Fernanda_2.jpg"
@@ -27,6 +28,7 @@ const PPhoto = () => {
 
   const myImages = [
    photo1,
+   "https://drive.google.com/uc?export=view&id=1VLa109rYrmw7f4FXLa2B3u9FcU9NcWiN",
   //  photo2,
    photo3,
   //  photo4,
