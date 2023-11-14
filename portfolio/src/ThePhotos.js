@@ -1,6 +1,6 @@
 
 import p1 from "../src/assets/Photography/Bibi&James_0025.jpg"
-import p2 from "../src/assets/Photography/David_Fernanda_1.jpg"
+import p2 from "/src/assets/Photography/David_Fernanda_1.jpg"
 const myPhotos = [
     p1,
     p2
