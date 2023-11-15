@@ -1,5 +1,6 @@
 import "./App.css";
-import { BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate, useNavigate} from "react-router-dom";
+import { useEffect } from 'react';
 import HomePage from "./components/HomePage";
 import AboutPage from "./components/AboutPage";
 import ProjectsPage from "./components/ProjectsPage";
@@ -12,6 +13,17 @@ import PPhoto from "./components/PPhoto";
 
 
 function App() {
+  
+  function NotFound() {
+    const navigate = useNavigate();
+  
+    useEffect(() => {
+      navigate('/');
+    }, [navigate]);
+  
+    return null;
+  }
+
   return (
     <>
    
@@ -28,7 +40,7 @@ function App() {
         <Route path="/Filmmaking" element={<PFilm/>} />
         <Route path="/Photography" element={<PPhoto/>} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="*" element={<Navigate to="/"/>}/>
+        <Route path="*" element={<NotFound/>}/>
   
       
       </Routes>
