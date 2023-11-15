@@ -29,28 +29,46 @@ import hangman from '../assets/WebProjects/hangman.png'
 const PWeb = () => {
   return (
     <>
+
+<Container maxW="container.xl">
+        <Box
+          mt={{ lg: "-125px", md: "-125px", base: "-40px" }}
+          mb={10}
+          height={{ lg: "350px", md: "350px", base: "250px" }}
+          borderRadius={30}
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
+          className="myNoise"
+          
+        >
+          <Text fontSize={30} fontWeight="bold" mt="50px">
+            Projects
+          </Text>
+        </Box>
+
       <Container
         maxW="container.xl"
         className="myNoise"
         borderRadius={30}
-        p={{sm: 30, md:40, lg:90}}
+        p={{base: 30, md:35, lg:90}}
       >
-        <Text fontSize={35} fontWeight={700}>
+        <Text fontSize={35} fontWeight={700} >
           Web Projects
         </Text>
         <Text fontSize={18} fontWeight={700} mt={2} mb={2}>
           What I’ve used for development:
         </Text>
         <HStack >
-          <FontAwesomeIcon icon={faGithub} size="xl" />
-          <FontAwesomeIcon icon={faReact} size="xl" />
-          <Image src={typescirpt} boxSize="22px" />
-          <FontAwesomeIcon icon={faJs} size="xl" />
-          <Image src={csharp} boxSize="23px" />
-          <FontAwesomeIcon icon={faUnity} size="xl" />
-          <FontAwesomeIcon icon={faBootstrap} size="xl" />
-          <FontAwesomeIcon icon={faHtml5} size="xl" />
-          <FontAwesomeIcon icon={faCss3} size="xl" />
+          <FontAwesomeIcon icon={faGithub} size='lg' />
+          <FontAwesomeIcon icon={faReact} size="lg" />
+          <Image src={typescirpt} boxSize="19px" />
+          <FontAwesomeIcon icon={faJs} size="lg" />
+          <Image src={csharp} boxSize="20px" />
+          <FontAwesomeIcon icon={faUnity} size="lg" />
+          <FontAwesomeIcon icon={faBootstrap} size="lg" />
+          <FontAwesomeIcon icon={faHtml5} size="lg" />
+          <FontAwesomeIcon icon={faCss3} size="lg" />
         </HStack>
 
         <Text textAlign="center" fontSize={22} fontWeight={700} mt={20} mb={2}>
@@ -111,6 +129,7 @@ const PWeb = () => {
             </Text>
           </GridItem>
         </SimpleGrid>
+      </Container>
       </Container>
     </>
   );

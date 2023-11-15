@@ -38,7 +38,7 @@ const HomePage = () => {
             bgPosition="center"
             bgSize="cover"
             cursor='pointer'
-            onClick={() => navigate("/ProjectsPage")}
+            onClick={() => navigate("/Web")}
             
           >
             <Text ms={12} mb={10} color="white" fontWeight="bold" fontSize={25}>
@@ -58,7 +58,7 @@ const HomePage = () => {
             bgPosition="center"
             bgSize="cover"
             cursor='pointer'
-            onClick={() => navigate("/ProjectsPage")}
+            onClick={() => navigate("/Filmmaking")}
           >
             <Text ms={12} mb={10} color="white" fontWeight="bold" fontSize={25}>
               Filmmaking
@@ -77,7 +77,7 @@ const HomePage = () => {
             bgPosition="center"
             bgSize="cover"
             cursor='pointer'
-            onClick={() => navigate("/ProjectsPage")}
+            onClick={() => navigate("/Photography")}
           >
             <Text ms={12} mb={10} color="white" fontWeight="bold" fontSize={25}>
               Photography

@@ -10,9 +10,9 @@ const ProjectsPage = () => {
     <>
     <Container maxW="container.xl">
         <Box
-          mt={{ lg: "-125px", md: "-125px", sm: "-40px" }}
+          mt={{ lg: "-125px", md: "-125px", base: "-40px" }}
           mb={10}
-          height={{ lg: "350px", md: "350px", sm: "250px" }}
+          height={{ lg: "350px", md: "350px", base: "250px" }}
           borderRadius={30}
           display="flex"
           alignItems="center"
@@ -25,10 +25,10 @@ const ProjectsPage = () => {
           </Text>
         </Box>
    
-        <Tabs position="relative" variant="unstyled">
+        {/* <Tabs position="relative" variant="unstyled">
           <TabList mb={4}>
             <Tab fontSize={{sm:15, md:20, lg:20}} fontWeight={700}>Web</Tab>
-            <Tab fontSize={{sm:15, md:20, lg:20}} fontWeight={700}>Filmmaking</Tab>
+            <Tab fontSize={{sm:15, md:20, lg:20}} fontWeight={700} id='filmmaking'>Filmmaking</Tab>
             <Tab fontSize={{sm:15, md:20, lg:20}} fontWeight={700}>Photography</Tab>
           </TabList>
           <TabIndicator
@@ -48,7 +48,7 @@ const ProjectsPage = () => {
               <PPhoto/>
             </TabPanel>
           </TabPanels>
-         </Tabs>
+         </Tabs> */}
 
         
         </Container>

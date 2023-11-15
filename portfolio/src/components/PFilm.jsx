@@ -14,11 +14,27 @@ import {
 const PFilm = () => {
   return (
     <>
-      <Container
+     <Container maxW="container.xl">
+        <Box
+          mt={{ lg: "-125px", md: "-125px", base: "-40px" }}
+          mb={10}
+          height={{ lg: "350px", md: "350px", base: "250px" }}
+          borderRadius={30}
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
+          className="myNoise"
+          
+        >
+          <Text fontSize={30} fontWeight="bold" mt="50px">
+            Projects
+          </Text>
+        </Box>
+        <Container
         maxW="container.xl"
         className="myNoise2"
         borderRadius={30}
-        p={{sm:30 ,md: 45, lg: 90}}
+        p={{base:30 ,md: 45, lg: 90}}
       >
         <Text fontSize={35} fontWeight={700} mb={10}>
           Film Projects
@@ -172,6 +188,9 @@ const PFilm = () => {
           spacingY="30px"
         ></SimpleGrid>
       </Container>
+  </Container>
+
+     
     </>
   );
 };
