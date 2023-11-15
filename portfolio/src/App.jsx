@@ -1,6 +1,6 @@
 import "./App.css";
-import { BrowserRouter, Route, Routes} from "react-router-dom";
-
+import { BrowserRouter, Route, Routes, useLocation} from "react-router-dom";
+import { useEffect } from 'react';
 import HomePage from "./components/HomePage";
 import AboutPage from "./components/AboutPage";
 import ProjectsPage from "./components/ProjectsPage";
@@ -14,6 +14,14 @@ import NotFound from "./components/NotFound";
 
 
 function App() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === '*') {
+      window.location.href = '/';
+    }
+  }, [location]);
   
   return (
     <>
