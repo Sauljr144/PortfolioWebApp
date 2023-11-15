@@ -28,7 +28,7 @@ function App() {
         <Route path="/Filmmaking" element={<PFilm/>} />
         <Route path="/Photography" element={<PPhoto/>} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/*" loader={() => redirect('/')} />
+        <Route path="*" element={<Navigate to="/"/>}/>
   
       
       </Routes>
