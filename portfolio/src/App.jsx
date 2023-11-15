@@ -1,6 +1,6 @@
 import "./App.css";
-import { BrowserRouter, Route, Routes, Navigate, useNavigate} from "react-router-dom";
-import { useEffect } from 'react';
+import { BrowserRouter, Route, Routes} from "react-router-dom";
+
 import HomePage from "./components/HomePage";
 import AboutPage from "./components/AboutPage";
 import ProjectsPage from "./components/ProjectsPage";
@@ -10,20 +10,11 @@ import MyNavBar from "./components/MyNavBar";
 import PWeb from "./components/PWeb";
 import PFilm from "./components/PFilm";
 import PPhoto from "./components/PPhoto";
+import NotFound from "./components/NotFound";
 
 
 function App() {
   
-  function NotFound() {
-    const navigate = useNavigate();
-  
-    useEffect(() => {
-      navigate('/');
-    }, [navigate]);
-  
-    return null;
-  }
-
   return (
     <>
    
