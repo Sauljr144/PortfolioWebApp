@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Route, Routes, Redirect} from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
 import { useEffect } from 'react';
 import HomePage from "./components/HomePage";
 import AboutPage from "./components/AboutPage";
@@ -32,7 +32,7 @@ function App() {
         <Route path="/Filmmaking" element={<PFilm/>} />
         <Route path="/Photography" element={<PPhoto/>} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="*" element={<Redirect to="/"/>} />
+        <Route path="*" element={<Navigate to="/"/>} />
   
       
       </Routes>
