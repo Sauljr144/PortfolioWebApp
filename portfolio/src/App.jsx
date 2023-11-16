@@ -20,7 +20,7 @@ function App() {
     <>
    
     
-    <BrowserRouter>
+    <BrowserRouter basename="">
    
       <MyNavBar/>
       <Routes>
