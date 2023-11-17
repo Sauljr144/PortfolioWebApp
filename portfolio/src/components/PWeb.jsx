@@ -158,6 +158,42 @@ const PWeb = () => {
               </Text>
             </GridItem>
           </SimpleGrid>
+
+          <Text fontSize={35} fontWeight={700} mt={20} mb={5}>
+            Favorite Unity Projects
+          </Text>
+          <SimpleGrid
+            columns={{ sm: 1, md: 2 }}
+            spacingX="30px"
+            spacingY="30px"
+          >
+            <GridItem>
+              <Box height={{ base: 370, md: 360, lg: 450 }}>
+                <iframe
+                  style={{ borderRadius: "30px" }}
+                  id="webgl_iframe"
+                  allow="autoplay; fullscreen; vr"
+                  src="https://play.unity.com/webgl/584751fb-5041-40eb-9783-16a36294dd85?screenshot=false&embedType=embed"
+                  width="100%"
+                  height="100%"
+                  webkitallowfullscreen="true"
+                ></iframe>
+              </Box>
+            </GridItem>
+            <GridItem>
+              <Box height={{ base: 370, md: 360, lg: 450 }}>
+                <iframe
+                style={{ borderRadius: "30px" }}
+                  id="webgl_iframe"
+                  allow="autoplay; fullscreen; vr"
+                  src="https://play.unity.com/webgl/81135727-e226-4f99-9cdb-7facac5e2267?screenshot=false&embedType=embed"
+                  width="100%"
+                  height="100%"
+                  webkitallowfullscreen="true"
+                ></iframe>
+              </Box>
+            </GridItem>
+          </SimpleGrid>
         </Container>
       </Container>
     </>

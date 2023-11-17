@@ -13,17 +13,11 @@ import {
   Modal,
   ModalOverlay,
   ModalContent,
-  ModalHeader,
-  ModalFooter,
   ModalBody,
   ModalCloseButton,
-  Icon,
   useDisclosure,
-  FormErrorMessage
 } from "@chakra-ui/react";
 import {
-  PhoneIcon,
-  AddIcon,
   WarningIcon,
   CheckCircleIcon,
 } from "@chakra-ui/icons";
