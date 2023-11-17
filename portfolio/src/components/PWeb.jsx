@@ -32,7 +32,7 @@ import hangman from "../assets/WebProjects/hangman.png";
 const PWeb = () => {
   return (
     <>
-      <Container maxW="container.xl">
+      <Container maxW="container.xl" >
         <Box
           mt={{ lg: "-125px", md: "-125px", base: "-40px" }}
           mb={10}

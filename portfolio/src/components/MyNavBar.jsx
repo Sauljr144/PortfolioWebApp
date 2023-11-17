@@ -20,11 +20,19 @@ import {
   MenuList,
   MenuItem,
   MenuButton,
+  LinkOverlay,
+  LinkBox,
+  Container
 } from "@chakra-ui/react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import logo from "../assets/BluBlack.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faInstagram,
+  faVimeoV,
+  
+} from "@fortawesome/free-brands-svg-icons";
 
 const MyNavBar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -32,8 +40,26 @@ const MyNavBar = () => {
 
   return (
     <>
-      <Show above="md">
-        <HStack justifyContent="center" my={12}>
+      <Show above="md" >
+      <Container maxW="container.xl" justifyContent='end' >
+        
+        
+      <HStack  justifyContent='start'  position='absolute'>
+          <LinkBox   ms={3} me={2} >
+            <LinkOverlay href="https://vimeo.com/saulsuazo"/>
+          <FontAwesomeIcon icon={faVimeoV} size="xl" />
+          </LinkBox>
+         
+          <LinkBox    me={2} >
+            <LinkOverlay href="https://www.instagram.com/bluwolfpictures/"/>
+          <FontAwesomeIcon icon={faInstagram} size="xl" />
+          </LinkBox>
+        
+        </HStack>
+     
+
+        <HStack justifyContent='center'  my={12}>
+  
           <Box mx={10} as={Link} to="/">
             Home
           </Box>
@@ -70,7 +96,13 @@ const MyNavBar = () => {
           <Box mx={10} as={Link} to="/Contact">
             Contact
           </Box>
+
+         
+        
         </HStack>
+       
+          
+        </Container>
       </Show>
 
       <Hide above="md">
