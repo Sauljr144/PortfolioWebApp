@@ -91,19 +91,34 @@ const MyNavBar = () => {
       </Show>
 
       <Hide above="md">
-        <HStack justifyContent="space-between" my={3}>
-          <Box as={Link} to="/">
+
+
+      <HStack justifyContent='space-between' my={3}>
+      <Box as={Link} to="/">
             <Image mx={5} src={logo} boxSize="40px" />
           </Box>
 
-          <Box mx={7}>
+       <HStack me={5}>
+       <LinkBox me={2}>
+              <LinkOverlay href="https://vimeo.com/saulsuazo" />
+              <FontAwesomeIcon icon={faVimeoV} size="xl" />
+            </LinkBox>
+
+            <LinkBox me={2}>
+              <LinkOverlay href="https://www.instagram.com/bluwolfpictures/" />
+              <FontAwesomeIcon icon={faInstagram} size="xl" />
+            </LinkBox>
+            
             <FontAwesomeIcon
               icon={faBars}
+              size="lg"
               type="button"
               ref={btnRef}
               onClick={onOpen}
             />
-          </Box>
+       </HStack>
+      </HStack >
+       
 
           <Drawer
             isOpen={isOpen}
@@ -155,22 +170,11 @@ const MyNavBar = () => {
                   <Box as={Link} to="/Contact">
                     Contact
                   </Box>
-                  <Box>
-                    <LinkBox me={2}>
-                      <LinkOverlay href="https://vimeo.com/saulsuazo" />
-                      <FontAwesomeIcon icon={faVimeoV} size="xl" />
-                    </LinkBox>
-
-                    <LinkBox me={2}>
-                      <LinkOverlay href="https://www.instagram.com/bluwolfpictures/" />
-                      <FontAwesomeIcon icon={faInstagram} size="xl" />
-                    </LinkBox>
-                  </Box>
                 </SimpleGrid>
               </DrawerBody>
             </DrawerContent>
           </Drawer>
-        </HStack>
+      
       </Hide>
     </>
   );
