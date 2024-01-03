@@ -45,7 +45,7 @@ const MyNavBar = () => {
         <Container maxW="container.xl" justifyContent="end" mt={7}>
           <HStack justifyContent="start">
             <LinkBox ms={2}>
-              <LinkOverlay href="https://www.linkedin.com/in/saul-s-727702196/" />
+              <LinkOverlay href="https://www.linkedin.com/in/saulsuazo/" />
               <FontAwesomeIcon icon={faLinkedin} size="xl" />
             </LinkBox>
             <LinkBox ms={3}>
@@ -111,7 +111,7 @@ const MyNavBar = () => {
 
           <HStack me={5}>
             <LinkBox me={2}>
-              <LinkOverlay href="https://www.linkedin.com/in/saul-s-727702196/" />
+              <LinkOverlay href="https://www.linkedin.com/in/saulsuazo/" />
               <FontAwesomeIcon icon={faLinkedin} size="xl" />
             </LinkBox>
             <LinkBox me={2}>
