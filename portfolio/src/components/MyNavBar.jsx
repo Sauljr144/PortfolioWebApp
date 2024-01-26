@@ -45,20 +45,20 @@ const MyNavBar = () => {
         <Container maxW="container.xl" justifyContent="end" mt={7}>
           <HStack justifyContent="start">
             <LinkBox ms={2}>
-              <LinkOverlay href="https://www.linkedin.com/in/saulsuazo/" />
+              <LinkOverlay href="https://www.linkedin.com/in/saulsuazo/" aria-label="Linkedin URL"/>
               <FontAwesomeIcon icon={faLinkedin} size="xl"  aria-label="Linkedin Icon"/>
             </LinkBox>
             <LinkBox ms={3}>
-              <LinkOverlay href="https://github.com/Sauljr144" />
+              <LinkOverlay href="https://github.com/Sauljr144" aria-label="GitHub URL"/>
               <FontAwesomeIcon icon={faGithub} size="xl" aria-label="GitHub Icon"/>
             </LinkBox>
             <LinkBox ms={2} me={2}>
-              <LinkOverlay href="https://vimeo.com/saulsuazo" />
+              <LinkOverlay href="https://vimeo.com/saulsuazo" aria-label="Vimeo URL"/>
               <FontAwesomeIcon icon={faVimeoV} size="xl" aria-label="Vimeo Icon"/>
             </LinkBox>
 
             <LinkBox ms={1}>
-              <LinkOverlay href="https://www.instagram.com/bluwolfpictures/" />
+              <LinkOverlay href="https://www.instagram.com/bluwolfpictures/" aria-label="Instagram URL"/>
               <FontAwesomeIcon icon={faInstagram} size="xl"  aria-label="Instagram Icon"/>
             </LinkBox>
           </HStack>
@@ -111,20 +111,20 @@ const MyNavBar = () => {
 
           <HStack me={5}>
             <LinkBox me={2}>
-              <LinkOverlay href="https://www.linkedin.com/in/saulsuazo/" />
+              <LinkOverlay href="https://www.linkedin.com/in/saulsuazo/" aria-label="Linkedin URL"/>
               <FontAwesomeIcon icon={faLinkedin} size="xl"  aria-label="Linkedin Icon"/>
             </LinkBox>
             <LinkBox me={2}>
-              <LinkOverlay href="https://github.com/Sauljr144" />
+              <LinkOverlay href="https://github.com/Sauljr144" aria-label="GitHub URL"/>
               <FontAwesomeIcon icon={faGithub} size="xl"  aria-label="GitHub Icon"/>
             </LinkBox>
             <LinkBox me={2}>
-              <LinkOverlay href="https://vimeo.com/saulsuazo" />
+              <LinkOverlay href="https://vimeo.com/saulsuazo" aria-label="Vimeo URL"/>
               <FontAwesomeIcon icon={faVimeoV} size="xl" aria-label="Vimeo Icon"/>
             </LinkBox>
 
             <LinkBox me={2}>
-              <LinkOverlay href="https://www.instagram.com/bluwolfpictures/" />
+              <LinkOverlay href="https://www.instagram.com/bluwolfpictures/" aria-label="Instagram URL"/>
               <FontAwesomeIcon icon={faInstagram} size="xl"  aria-label="Instagram Icon"/>
             </LinkBox>
 
